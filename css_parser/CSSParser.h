@@ -11,7 +11,7 @@ public:
 
 	~CSSParser();
 
-	void parse( const std::string & css );
+	void Parse( const std::string & css );
 
 private:
 

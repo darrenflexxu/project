@@ -13,9 +13,9 @@ CSSParser::~CSSParser()
 
 }
 
-void CSSParser::parse( const std::string & css )
+void CSSParser::Parse( const std::string & css )
 {
 	StyleSheet ss;
 	auto list = ss.parse_style( css );
-    font_parser_.parse( list );
+    font_parser_.Parse( list );
 }
