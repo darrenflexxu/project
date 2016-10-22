@@ -1,8 +1,8 @@
 ﻿#include "css/css.h"
 
-// font_attribute_parser
+// FontAttributeParser
 
-class font_attribute_parser
+class FontAttributeParser
 {
 public:
 
@@ -11,9 +11,9 @@ public:
 
     };
 
-	font_attribute_parser();
+	FontAttributeParser();
 
-	~font_attribute_parser();
+	~FontAttributeParser();
 
 	void parse( const StyleSheet::NodeList & list );
 

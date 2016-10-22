@@ -1,4 +1,4 @@
-﻿#include "font_attribute_parser.h"
+﻿#include "FontAttributeParser.h"
 
 // FontFlag
 
@@ -46,19 +46,19 @@ static FontFlag GetFontFlagType( const std::string & str )
     return GetType<FontFlag>( gFontFlagStrs , sizeof( gFontFlagStrs ) / sizeof( gFontFlagStrs[ 0 ] ) , str );    
 }
 
-// font_attribute_parser
+// FontAttributeParser
 
-font_attribute_parser::font_attribute_parser()
+FontAttributeParser::FontAttributeParser()
 {
 
 }
 
-font_attribute_parser::~font_attribute_parser()
+FontAttributeParser::~FontAttributeParser()
 {
 
 }
 
-void font_attribute_parser::parse( const StyleSheet::NodeList & list )
+void FontAttributeParser::parse( const StyleSheet::NodeList & list )
 {
     std::for_each( list.begin() , list.end() , [ & ] ( const StyleSheet::NodePtr & item )
     {
