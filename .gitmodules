@@ -1,3 +1,6 @@
 [submodule "css_parser/css"]
 	path = css_parser/css
 	url = https://github.com/darrenflexxu/ccss.git
+[submodule "pugixml"]
+	path = pugixml
+	url = https://github.com/darrenflexxu/pugixml.git
